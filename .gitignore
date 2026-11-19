@@ -1,10 +1,23 @@
-*.sqlite
-*.session
-*.session-journal
+# Python
 __pycache__/
+*.py[cod]
 .venv/
 venv/
+
+# Local databases
+*.sqlite
+*.sqlite-journal
+*.db
+*.session
+*.session-journal
+*.log
+
+# Local config & environment
+config*.json
 .env
+.env.*
+.python-version
+
+# IDE
 .idea/
 .vscode/
-*.pyc
